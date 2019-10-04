@@ -18,7 +18,7 @@ platform :ios do
       }
     )
     firebase_app_distribution(
-      app: "1:595091170546:ios:29fc33f9349780038c9c6b",
+      app: "1:147595982895:ios:5c452cc702e61c11652eda",
       groups: "all",
       release_notes: "Lots of amazing new features to test out!",
       firebase_cli_path: `which firebase`.strip()
