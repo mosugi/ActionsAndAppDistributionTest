@@ -1,4 +1,4 @@
-app_identifier("com.koukilab.ActionsAndAppDistributionTest") # The bundle identifier of your app
+app_identifier("com.mosugi.ActionsAndAppDistributionTest") # The bundle identifier of your app
 apple_id("dan.addr.skd@gmail.com") # Your Apple email address
 
 itc_team_id("10666364") # App Store Connect Team ID
