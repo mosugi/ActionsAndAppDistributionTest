@@ -7,7 +7,7 @@ platform :ios do
   lane :app_distribution do
     import_certificates_for_actions if is_ci
     sync_code_signing(
-      git_url: "git@github.com:kouki-dan/certificates.git",
+      git_url: "git@github.com:mosugi/certificates.git",
       type: "adhoc",
       readonly: true
     ) unless is_ci
@@ -33,7 +33,7 @@ platform :ios do
     )
 
     sync_code_signing(
-      git_url: "https://github.com/kouki-dan/certificates.git",
+      git_url: "https://github.com/mosugi/certificates.git",
       git_basic_authorization: ENV["PERSONAL_ACCESS_TOKEN_GITHUB"],
       type: "adhoc",
       readonly: true
