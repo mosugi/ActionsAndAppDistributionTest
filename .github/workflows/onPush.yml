@@ -15,7 +15,6 @@ jobs:
         node-version: '10.x'
     - name: Deploy to Firebase App Distribution
       env:
-        CERTIFICATE_PASSWORD: ${{ secrets.CERTIFICATE_PASSWORD }} # In case of using manual certificates import
         PERSONAL_ACCESS_TOKEN_GITHUB: ${{ secrets.PERSONAL_ACCESS_TOKEN_GITHUB }} # In case of using match
         MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }} # In case of using match
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
