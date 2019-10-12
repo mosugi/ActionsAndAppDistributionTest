@@ -2,6 +2,8 @@
 
 ## Repository Secrets
 
+|Key|Value|
+|---|---|
 |PERSONAL_ACCESS_TOKEN_GITHUB|base64(username:token)|
 |MATCH_PASSWORD|fastlane match password|
 |FIREBASE_TOKEN|`firebase login:ci`|
